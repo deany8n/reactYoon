@@ -13,7 +13,6 @@ function NavbarComponent (){
             <NavDropdown.Item href="#action/3.1">KIMCHI</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">SALSAS</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3">OTROS FERMENTOS</NavDropdown.Item>
-            
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
