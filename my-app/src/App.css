@@ -1,0 +1,26 @@
+.title {
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo {
+
+    font-size: 50px
+    ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+
+.logokim {
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+
+.logoposition {
+
+display: flex;
+justify-content: center;}
