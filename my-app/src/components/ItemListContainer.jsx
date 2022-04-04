@@ -1,4 +1,4 @@
-
+import ItemCount from "./ItemCount"
 
 
 function ItemListContainer() {
@@ -10,6 +10,7 @@ function ItemListContainer() {
             <div className='titulo'>
                 BIENVENIDOS A LA COMUNIDAD
             </div>
+            <ItemCount/>
         </>
     )
 }

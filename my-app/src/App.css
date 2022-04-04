@@ -27,8 +27,11 @@ justify-content: center;}
 
 
 .Item {
-
   display: flex;
-  justify-content: center;
   margin: 20px;
+  flex-direction: column;
+  max-width: 150px;
 }
+
+
+
