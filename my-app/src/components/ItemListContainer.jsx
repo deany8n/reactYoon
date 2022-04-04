@@ -1,7 +1,16 @@
 import ItemCount from "./ItemCount"
+import React from 'react'
+
+
+
 
 
 function ItemListContainer() {
+
+const onAdd = (quantity) => {
+    console.log('compraste' + quantity + 'unidades')
+}
+
     return (
         < >
             <div className='logoposition' >
@@ -10,7 +19,7 @@ function ItemListContainer() {
             <div className='titulo'>
                 BIENVENIDOS A LA COMUNIDAD
             </div>
-            <ItemCount/>
+            <ItemCount initial={1} stock={10} onAdd={onAdd} />
         </>
     )
 }
