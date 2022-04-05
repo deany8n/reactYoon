@@ -1,8 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from "./components/Navbar/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemListContainer from './components/ItemListContainer';
+
 
 
 
@@ -13,7 +14,6 @@ function App() {
     <div className="App">
       <Navbar/>
       <ItemListContainer/>
- 
     </div>
   )
 }
