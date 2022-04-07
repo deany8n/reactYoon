@@ -44,3 +44,13 @@ margin: 1rem;
 flex-direction: column;
 
 }
+.detaile {
+  margin: 20px
+}
+.detaile__image{
+  width: 150px;
+  height: 200px;
+}
+.containerItem {
+  margin: 20px
+}

@@ -2,6 +2,7 @@ import ItemCount from "./ItemCount"
 import React,{useState,useEffect}from 'react'
 import ItemList from './ItemList'
 
+
 const cart = [
     {id:1,image:"../Clasico.JPG",title:'clasico'}
 ]
@@ -33,6 +34,7 @@ const onAdd = (quantity) => {
             </div>
             <ItemCount initial={1} stock={10} onAdd={onAdd} />
             <ItemList data={data}/>
+         
         </>
     )
 }
